@@ -74,3 +74,4 @@ modelButton.addEventListener("click", changeModel);
 */
 
 let durationButton = document.getElementById("duration-button");
+function changeDuration() {}

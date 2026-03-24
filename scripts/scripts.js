@@ -10,7 +10,7 @@ You are encouraged to use the provided naming convention for ease of review.
 /* create variables to hold the values for modelName and duration */
 
 let modelName = "XYZ";
-let duration = 1;
+let duration = 0;
 
 /****************** helper function ******************/
 /* create a function called recalculate() which will
@@ -26,13 +26,14 @@ function recalculate() {
   let costLabel = document.getElementById("calculated-cost");
 
   let totalCost = 0;
+
   if (modelName === "XYZ") {
     totalCost = duration * 100;
   } else if (modelName === "CPRG") {
     totalCost = duration * 213;
   }
 
-  costLabel.innerHTML = totalCost;
+  costLabel.innerHTML = totalCost.toFixed(2);
 }
 
 /****************** model button logic ******************/

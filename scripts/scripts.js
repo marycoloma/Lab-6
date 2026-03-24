@@ -47,7 +47,7 @@ function recalculate() {
 - finally, uncomment the following line of JavaScript to have this function run automatically whenever the pseudo-button is clicked: */
 // modelButton.addEventListener("click", changeModel);
 
-// INSERT YOUR CODE HERE
+let modelButton = document.getElementById("model-button");
 
 /****************** duration button logic ******************/
 /*  - first, create a variable to represent the "Change Duration" pseudo-button.

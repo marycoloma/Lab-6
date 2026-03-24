@@ -22,7 +22,11 @@ let duration = 1;
     - set the value of the calculated-cost element's innerHTML to this new value
 */
 
-// INSERT YOUR CODE HERE
+function recalculate() {
+  let costLabel = document.getElementById("calculated-cost");
+
+  let totalCost = 0;
+}
 
 /****************** model button logic ******************/
 

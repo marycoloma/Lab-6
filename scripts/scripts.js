@@ -48,7 +48,9 @@ function recalculate() {
 // modelButton.addEventListener("click", changeModel);
 
 let modelButton = document.getElementById("model-button");
-function changeModel() {}
+function changeModel() {
+  let modelText = document.getElementById("model-text");
+}
 
 /****************** duration button logic ******************/
 /*  - first, create a variable to represent the "Change Duration" pseudo-button.

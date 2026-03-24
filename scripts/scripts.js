@@ -85,3 +85,5 @@ function changeDuration() {
     recalculate();
   }
 }
+
+durationButton.addEventListener("click", changeDuration);

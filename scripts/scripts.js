@@ -50,6 +50,13 @@ function recalculate() {
 let modelButton = document.getElementById("model-button");
 function changeModel() {
   let modelText = document.getElementById("model-text");
+  if (modelName === "XYZ") {
+    modelName = "CPRG";
+    modelText.innerHTML = "Model CPRG";
+  } else {
+    modelName = "XYZ";
+    modelText.innerHTML = "Model XYZ";
+  }
 }
 
 /****************** duration button logic ******************/

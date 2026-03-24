@@ -26,6 +26,13 @@ function recalculate() {
   let costLabel = document.getElementById("calculated-cost");
 
   let totalCost = 0;
+  if (modelName === "XYZ") {
+    totalCost = duration * 100;
+  } else if (modelName === "CPRG") {
+    totalCost = duration * 213;
+  }
+
+  costLabel.innerHTML = totalCost;
 }
 
 /****************** model button logic ******************/

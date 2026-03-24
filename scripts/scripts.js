@@ -73,4 +73,4 @@ modelButton.addEventListener("click", changeModel);
     - finally, attach this function to the "Change Duration" pseudo-button, so it runs whenever the button is clicked.
 */
 
-// INSERT YOUR CODE HERE
+let durationButton = document.getElementById("duration-button");

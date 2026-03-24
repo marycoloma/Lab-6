@@ -57,6 +57,7 @@ function changeModel() {
     modelName = "XYZ";
     modelText.innerHTML = "Model XYZ";
   }
+  recalculate();
 }
 
 /****************** duration button logic ******************/

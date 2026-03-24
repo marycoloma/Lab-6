@@ -9,7 +9,8 @@ You are encouraged to use the provided naming convention for ease of review.
 /****************** create variables ******************/
 /* create variables to hold the values for modelName and duration */
 
-// INSERT YOUR CODE HERE
+let modelName = "XYZ";
+let duration = 1;
 
 /****************** helper function ******************/
 /* create a function called recalculate() which will

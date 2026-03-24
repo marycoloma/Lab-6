@@ -60,6 +60,8 @@ function changeModel() {
   recalculate();
 }
 
+modelButton.addEventListener("click", changeModel);
+
 /****************** duration button logic ******************/
 /*  - first, create a variable to represent the "Change Duration" pseudo-button.
     - then, create a function called changeDuration() that will

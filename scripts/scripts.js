@@ -49,8 +49,10 @@ function recalculate() {
 // modelButton.addEventListener("click", changeModel);
 
 let modelButton = document.getElementById("model-button");
+
 function changeModel() {
   let modelText = document.getElementById("model-text");
+
   if (modelName === "XYZ") {
     modelName = "CPRG";
     modelText.innerHTML = "Model CPRG";
@@ -58,6 +60,7 @@ function changeModel() {
     modelName = "XYZ";
     modelText.innerHTML = "Model XYZ";
   }
+
   recalculate();
 }
 

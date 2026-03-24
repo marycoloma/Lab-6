@@ -78,12 +78,13 @@ modelButton.addEventListener("click", changeModel);
 */
 
 let durationButton = document.getElementById("duration-button");
+
 function changeDuration() {
   let durationText = document.getElementById("duration-text");
 
-  let newDuration = prompt("Enter new duration in months:");
+  let newDuration = prompt("Enter new duration in days:");
 
-  if (newDuration !== null && !isNaN(newDuration) && Number(newDuration) > 0) {
+  if (newDuration !== null && !isNaN(newDuration) && Number(newDuration) >= 0) {
     duration = Number(newDuration);
     durationText.innerHTML = duration;
     recalculate();
